@@ -1,0 +1,24 @@
+nums.push(numeros.join(''));
+    numeros.length = 0;
+    accion = "resta"
+    document.getElementById("display").value = numeros.join('');
+
+nums.push(numeros.join(''));
+    numeros.length = 0;
+    accion = "suma"
+    
+    document.getElementById("display").value = numeros;
+
+    var divicion = function(){
+    nums.push (parseFloat(document.getElementById("display").value));
+    numeros.length = 0;
+    accion = "divicion"
+    document.getElementById("display").value = numeros.join('')
+}
+
+var multiplicacion = function(){
+    nums.push (parseFloat(document.getElementById("display").value));
+    numeros.length = 0;
+    accion = "multiplicacion"
+    document.getElementById("display").value = numeros.join('')
+}

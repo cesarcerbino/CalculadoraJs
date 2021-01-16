@@ -1,0 +1,83 @@
+body {
+  background-color: teal !important;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+div.calculadora {
+  margin-top: 10px;
+  display: flex;
+  background-color: rgb(26, 26, 29);
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  height: 80vh;
+}
+
+input.display {
+  background-color: rgb(224, 221, 221);
+  position: relative;
+  border-radius: 10px 10px 0px 0px;
+  text-align: right;
+  border: none;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  font-size: 70px;
+}
+
+div.nums {
+  /* ! display: flex; */
+  height: 90%;
+  width: 80%;
+}
+
+div.nums button {
+  height: 25%;
+  width: 30%;
+  margin: 4px;
+}
+
+div.nums button.cero {
+  width: 93.5%;
+  height: 18%;
+}
+
+div.funciones-numeros {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+div.funciones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 90%;
+  width: 24%;
+}
+
+div.funciones button {
+  width: 45%;
+  height: 28%;
+  margin: 4px;
+}
+
+div.display {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+div.display input.resultado {
+  background-color: rgb(224, 221, 221);
+  font-size: 25px;
+  border-radius: 0px 0px 10px 10px;
+  text-align: right;
+  border: none;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
