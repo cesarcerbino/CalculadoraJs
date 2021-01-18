@@ -37,3 +37,11 @@ var numero9 = function () {
 var numero0 = function () {
   document.getElementById("display").value += 0;
 };
+
+var coma = function () {
+  document.getElementById("display").value += ",";
+};
+
+var punto = function () {
+  document.getElementById("display").value += ".";
+};
