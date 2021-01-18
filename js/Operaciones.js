@@ -2,8 +2,10 @@
 
 let num1 = "";
 let resultado = "";
+let ultima_accion = "";
 
 const suma = () => {
+  ultima_accion = "suma";
   let dsresult = document.getElementById("resultado");
   let display = document.getElementById("display");
   if (display.value != "") {
@@ -29,6 +31,7 @@ const suma = () => {
 // ! =========== RESTA =========== ! //
 
 const resta = () => {
+  ultima_accion = "resta";
   let dsresult = document.getElementById("resultado");
   let display = document.getElementById("display");
   if (display.value != "") {
@@ -54,6 +57,7 @@ const resta = () => {
 // ! =========== MULTIPLICACION =========== ! //
 
 const multiplicacion = () => {
+  ultima_accion = "multiplicacion";
   let dsresult = document.getElementById("resultado");
   let display = document.getElementById("display");
   if (display.value != "") {
@@ -87,4 +91,7 @@ const Borrar = () => {
 
 // * ========== IGUAL ========== * //
 
-const igual = () => {};
+const igual = () => {
+  if (ultima_accion === "suma") {
+  }
+};
